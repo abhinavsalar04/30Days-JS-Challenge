@@ -55,4 +55,17 @@ for(let row = 0; row < 5; row++){
     process.stdout.write("\n")
 }
 
+// Activity5
+// Task8
 
+for(let num = 1; num <= 10; num++){
+    if(num === 5) continue
+    process.stdout.write(num + "\t")
+}
+
+console.log("\n")
+//  Task9
+for(let num = 1; num <= 10; num++){
+    if(num === 7) break
+    process.stdout.write(num + "\t")
+}
